@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Zilla+Slab:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background-color: transparent;
+}
+
+.nav-item  .nav-link {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.nav-item .link-d {
+    color: #112374 !important;
+}
+
+.iku-hero {
+   font-family: 'Zilla Slab', sans-serif;
+    font-weight: 500;
+}
+
+.iku-hero p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.iku-hero a{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+ 
+.iku-status h4 {
+    font-family: 'Zilla Slab', sans-serif;
+    font-weight: 500;
+    color: white !important;
+}
+
+.iku-status p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.iku-part1 p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  color: #112374;
+}
+
+.iku-part1 h1 {
+    font-weight: 700 !important;
+    font-size: 40px !important;
+   color: #112374;
+}
+.iku-part1 h1,h4 {
+    font-family: 'Zilla Slab', sans-serif;
+    font-weight: 500;
+    color: #112374 !important;
+}
+
+.iku-part2 h1 {
+    font-family: 'Zilla Slab' , sans-serif;
+  font-weight: 700!important;
+}
+
+.iku-part2 p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+.iku-part2 h5 {
+     font-family: 'Zilla Slab', sans-serif;
+     font-weight: 500;
+}
+
+.iku-part2 a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+.iku-part3 h1 {
+    font-family: 'Zilla Slab', sans-serif;
+    font-weight: 700;
+    color: #112374;
+}
+
+.iku-part3 p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: #112374;
+}
+
+.iku-part3 h5 {
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+}
+
+.iku-part3 .more {
+    font-family: 'Zilla Slab', sans-serif;
+    font-weight: 500;
+}
+
+.iku-part4 h1 {
+  font-family: 'Zilla Slab', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.iku-part4 h3 {
+    font-family: 'Zilla Slab', sans-serif;
+    font-weight: 500;
+}
+
+.iku-part4 p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+.iku-part5 h1 {
+    font-family: 'Zilla Slab', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #112374;
+}
+
+.iku-part5 h2 button {
+    font-family: 'Zilla Slab', sans-serif;
+    font-weight: 600 !important;
+    font-size: large;
+    color: #112374;
+}
+
+.iku-part5 .accordion-body {
+    font-family: 'Zilla Slab', sans-serif;
+    font-weight: 500 !important;
+    color: #112374;
+}
+
+.form-label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+.facility-list li {
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+.facility-list__item {
+    display: flex;
+    align-items: center;
+}
+
+.facility-list__item p {
+    font-family: 'Zilla Slab', sans-serif !important;
+    font-weight: 500;
+    letter-spacing: .4px;
+    font-size: 20px;
+}
+
+.icon-circle {
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-circle i {
+    font-size: 25px;
+    color: #fff;
+}
+
+.pricing-btn {
+    background-color: #E63946 !important;
+    width: 180px;
+}
+
+.google {
+    width: 56px;
+    height: 56px;
+}
+
+.facebook {
+    width: 56px;
+    height: 56px;
+}
+
+.discord {
+    width: 56px;
+    height: 56px;
+}
+
+.instagram {
+    width: 56px;
+    height: 56px;
+}
+
+.mailchimp {
+    width: 56px;
+    height: 56px;
+}
+
+.wordpress {
+    width: 56px;
+    height: 56px;
+}
+
+.telegram {
+    width: 56px;
+    height: 56px;
+}
+  
+.ipad-pc {
+    margin: -60px 0px 0px 230px ;
+    width: 450px;
+    box-shadow: black 0px 5px 15px;
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+}
+
+.ipad-mobile {
+    margin: 0px 0px 0px 30px;
+    width: 750px;
+    box-shadow: black 0px 5px 15px ;
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+}
+
+.form-desktop::placeholder {
+    font-family: 'Inter' , sans-serif;
+    font-weight: 300;
+    color: #828282;
+}
+
+footer {
+    background-color: #000D48;
+}
+
+.footer-mobile h4 {
+    color: #F2F2F2 !important;
+    font-size: 25px;
+}
+
+.footer-mobile p {
+  color: #828282;
+}
+
+.footer-copy a {
+    color: #828282;
+}
+
+.footer-desktop p {
+    color: #828282;
+}
+
+.footer-desktop1 a {
+    text-decoration: none;
+    color: #828282;
+}
+
+.footer-desktop h4,a {
+    text-decoration: none;
+    color: #F2F2F2 !important;
+    line-height: 2;
+}
